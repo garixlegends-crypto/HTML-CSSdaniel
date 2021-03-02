@@ -20,7 +20,7 @@ nav{
 }
 .noir{
     height: 80px;
-    background-color: rgba(100,100,100,0.79);
+    background-color: rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
 }
@@ -76,6 +76,7 @@ li{
  .entree img{
     display: block;
     margin: auto;
+    
  }
  .entree p{
     margin: auto;
@@ -112,32 +113,40 @@ li{
      width: 300px;
     
  }
- .tarif{
-    margin: auto;
-    width: 63%;
- }
-.tarif1{
-    float: right;
-    margin: auto;
-    width: 30%;
-    position: relative;
-    bottom: 75px;
+.icon{
+    
 }
-.rae{
+.revanche{
+    width: 17%;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 1px solid #000; */
-    height: 100px;
-    width: 50%;
     flex-direction: row-reverse;
 }
-
-.pourquoi{
-    text-align: initial;
-    margin: auto;
-    width: 49%;
+.fa-money-check{
+    font-size: 50px;
 }
-.fa-money-check-alt{
-    font-size: 60px;
+.icon{
+    width: 23%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+}
+.balance p{
+    padding-top: 48px;
+    text-align: center;
+    width: 223%;
+    font-size: 1rem;
+}
+.balance span{
+    font-weight: 900;
+}
+.care2{
+    background-color: aqua;
+    height: 50px;
+    width: 336px;
+}
+.place{
+    margin: auto;
+    width: 0%;
 }

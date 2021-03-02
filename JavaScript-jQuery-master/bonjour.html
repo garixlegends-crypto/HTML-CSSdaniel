@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ var ordi = Math.floor(Math.random() * 3) + 1;
+ 
+ if (ordi == 1) {
+     ordi = "pierre";
+ }
+ else if (ordi == 2) {
+     ordi = "ciseau";
+ }
+ else if (ordi == 3) {
+     ordi = "feuille";
+ }
+ var player = prompt('pierre, feuille, ciseau').toLowerCase();
+ console.log(ordi);
+ console.log(player);
+if(player  !== 'pierre' && player !== 'feuille' && player !== 'ciseau' ){
+    alert('if');
+}  else{
+    if(ordi == player ){
+        alert('ordi : ' + ordi + 'player : ' + player );
+    }  
+    else if(ordi > player ){
+        alert('ciseau mort de la pierre');
+    }  
+}
+   
+
+
+
+    </script>
+</body>
+</html>

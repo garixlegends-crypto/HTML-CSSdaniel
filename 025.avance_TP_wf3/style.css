@@ -245,7 +245,7 @@ h2 {
 
 
 .go {
-    padding-top: 20%;
+    padding-top: 10%;
     text-align: center;
 }
 
@@ -325,9 +325,9 @@ h4 {
 .dure {
 
     margin: auto;
-    height: auto;
     width: 90%;
-    background-color: #A8FEF1;
+    background-color:    #66cccc;;
+    height: 1100px;
 }
 
 .olpo {
@@ -402,10 +402,18 @@ img:nth-child(n3) {
 }
 
 .card {
+    
     width: calc(100% / 5);
+}
+.card:nth-of-type(4n){
+    opacity: 0.33;
+}
+.card:nth-of-type(2n){
+    opacity: 0.33;
 }
 
 .card1 {
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -422,13 +430,226 @@ img:nth-child(n3) {
     background: none;
     color: white;
 }
-
+.nul{
+    padding-top: 50px;
+    grid-gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+.steve {
+    margin: auto;
+    width: 5%;
+    font-size: 16px;
+    position: relative;
+    bottom: 63px;
+}
+.steve span{
+    font-weight: 900;
+}
+.nul p{
+    width: 31%;
+    color: #2880A6;
+    font-size: 22px;
+}
+.wf3{
+    margin: auto;
+    width: 90%;
+}
+.wf3 span{
+    font-weight: 900;
+}
+.gedn img{
+    height: 300px;
+    width: 300px;
+}
+.gedn{
+    display: flex;
+    justify-content: center;
+    grid-gap: 35px;
+}
+.salon{
+    display: flex;
+    justify-content: center;
+    grid-gap: 100px;
+    font-weight: bold;
+}
+.pauvre{
+    display: flex;
+    justify-content: center;
+    grid-gap: 131px;
+}
+.blocknoire{
+    display: flex;
+    justify-content: center;
+    grid-gap: 112px;
+}
+.noiroe{
+    text-align: center;
+    color: white;
+    height: 53px;
+    width: 250px;
+    background-color: black;
+}
+.demifin{
+    background-image: url(img/images.png);
+    height: 1000px;
+    width: 100%;
+}
+.demifin h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.demifin img{
+    width: 7%;
+    height: auto;
+}
+.parte{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    grid-gap: 96px;
+}
+.block35{
+    background-color: aqua;
+    height: 500px;
+    float: right;
+    width: 433px;
+    margin-top: 199px;
+}
+.mopk{
+    margin: auto;
+    width: 74%;
+}
+.mopk h1{
+    padding: inherit;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    font-size: 46px;
+    text-align: center;
+}
+.bg {
+    color: white;
+}
+.mopk span{
+    font-weight: 700;
+}
+.presque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blancos{
+    background-color: white;
+    width: 86px;
+    text-align: center;
+    height: 32px;
+    padding-top: 12px;
+}
+.reseau{
+    font-size: 77px;
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+    gap: 50px;
+}
+.fondnoir{
+    background-color: black;
+    height: 1500px;
+    width: auto;
+}
+.fondnoir img{
+    height: 90px;
+    background: white;
+}
+.fondnoir h2{
+    color: white;
+    font-size: 30px;
+}
+.infor{
+    padding-top: 51px;
+    display: flex;
+    grid-gap: 112px;
+    margin: auto;
+    width: 27%;
+}
+.demain{
+    display: flex;
+    padding: 50px;
+    justify-content: flex-end;
+    grid-gap: 76px;
+}
+.demain ul{
+    display: flex;
+    flex-direction: column;
+}
+.noob{
+    margin: auto;
+    width: 41%;
+    float: right;
+}
+.noob h2{
+     width: auto;
+}
+.final{
+    margin: auto;
+    width: 53%;
+    text-align: center;
+}
+.fa-twitter{
+    background: darkkhaki;
+    border-radius: 270px;
+}
+.fa-linkedin-in{
+    background: brown;
+    border-radius: 270px;
+}      
 @media (max-width: 1199.98px) {
+    .reunion{
+    background-color: gold;
+    height: 643px;
+    width: 500px;
+    }
+    .pouvoir{
+        display: flex;
+        margin: auto;
+        width: 107%;
+    }
+    .pouvoir img{
+        height: 274px;
+    }
+    h4{
+        font-size: 1.3rem;
+    }
+    .orloge p{
+    font-weight: 900;
+    width: 89%;
+    font-size: 11px;
+    }
+    .align img{
+        margin: initial;
+    }
+    .go{
+        padding-top: 45%;
+        text-align: center;
+    }
     .dialogue {
         flex-direction: column;
     }
+    .dure {
+        height: auto;
+        width: auto;
+    }
 
+    .olpo{
+        display: none;
+    }
     .card1, .card5 {
+        display: none;
+    }
+    .nul p{
         display: none;
     }
 }
