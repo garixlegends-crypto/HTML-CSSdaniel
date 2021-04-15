@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat';
+}
+.dino{
+    background-image: url(img/dinosaure.jpg);
+    width: 100%;
+    height: 1118px;
+    background-size: cover;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    grid-gap: 116px;
+}
+nav{
+    display: grid;
+}
+.noir{
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+}
+li{
+       font-size: 1.5rem;
+}
+ .dino li{
+     padding-top: 10px;
+ }
+ .dino span{
+     color:#2a2c2e;
+ }
+ .carebleu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 14px;
+     background-color: blue;
+     height: 50px;
+     width: 300px;
+     display: flex;
+ }
+ .carebleu p{
+    margin: 17px;
+    font-size: 20px;
+    color: white;
+ }
+ .fa-ticket-alt{
+    font-size: 26px;
+    transform: rotate(115deg);
+    color: white;
+ }
+ h1{
+     font-size: 40px;
+     text-align: center;
+   ;
+ }
+ .logo{
+    background-image: url(img/logo.png);
+    height: 784px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 42%;
+ }
+ .barblanc{
+    background-image: url(img/climatise.png);
+    height: 254px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 18%;
+    float: right;
+ }
+ .entree img{
+    display: block;
+    margin: auto;
+    
+ }
+ .entree p{
+    margin: auto;
+    width: 39%;
+    color: black;
+    line-height: 40px;
+ }
+ .entree span{
+    font-weight: 600;
+ }
+ h2{
+     padding: 30px;
+    margin: auto;
+    line-height: 37px;
+    width: 30%;
+    text-align: center;
+ }
+ .Jurassic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 100px;
+ }
+ .Jurassic span{
+     font-weight: 900;
+ }
+ .carefonce{
+     text-align: center;
+     color: white;
+     margin: auto;
+     margin: 14px;
+     background-color: rgb(1, 124, 240);
+     height: 50px;
+     width: 300px;
+    
+ }
+.icon{
+    
+}
+.revanche{
+    width: 17%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fa-money-check{
+    font-size: 50px;
+}
+.icon{
+    width: 23%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+}
+.balance p{
+    padding-top: 48px;
+    text-align: center;
+    width: 223%;
+    font-size: 1rem;
+}
+.balance span{
+    font-weight: 900;
+}
+.care2{
+    background-color: aqua;
+    height: 50px;
+    width: 336px;
+}
+.place{
+    margin: auto;
+    width: 0%;
+}

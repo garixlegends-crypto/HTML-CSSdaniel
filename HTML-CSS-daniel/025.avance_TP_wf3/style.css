@@ -1,0 +1,655 @@
+body {
+    font-family: sans-serif;
+}
+
+.liste img {
+
+    height: 100px;
+}
+
+.liste {
+    background-size: 100px;
+    height: 199px;
+    display: flex;
+    background-image: url(img/images.png);
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-weight: bolder;
+    margin: 25px;
+    font-family: sans-serif;
+}
+
+.fa-phone-square-alt {
+    font-size: 70px;
+    color: gold;
+    background-color: black;
+    height: 60px;
+}
+
+.telephone {
+    font-family: sans-serif;
+    display: flex;
+
+}
+
+.image {
+    background-size: 1334px;
+    box-shadow: inset 1100px 0 0 0 rgb(58 31 255 / 50%);
+    background-repeat: no-repeat;
+    background-image: url(img/classe.jpg);
+    height: 748px;
+    width: 1090px;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.change {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 174px;
+    margin: auto;
+    width: 76%;
+}
+
+.fa-arrow-alt-circle-right {
+    background: black;
+    border-radius: 50%;
+    font-size: 65px;
+    color: yellow;
+    margin-top: 130px;
+}
+
+.image p {
+    margin: auto;
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    width: 76%;
+}
+
+.blockjaune {
+    margin: auto;
+    width: 76%;
+    margin-top: 50px;
+}
+
+.jaune {
+    background-color: yellow;
+    height: 50px;
+    width: 330px;
+}
+
+.jaune p {
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    width: 101%;
+}
+
+.gold {
+    height: 13px;
+    width: 330px;
+    background-color: gold;
+}
+
+.marge {
+    margin: auto;
+    width: 72%;
+}
+
+.map {
+    margin: auto;
+    width: 63%;
+}
+
+.reunion {
+    background-color: gold;
+    height: 141px;
+    width: 500px;
+    float: right;
+}
+
+.map p {
+    font-size: 23px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.bleu {
+    background-color: #9BD4F2;
+    height: 124px;
+    width: 500px;
+}
+
+.format {
+    background-color: gold;
+    height: 141px;
+    width: 500px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 35px;
+}
+
+.bleu p {
+    font-size: 22px;
+    text-align: initial;
+}
+
+
+.carte {
+
+    color: white;
+    margin: auto;
+    width: 77%;
+}
+
+.carte p {
+    font-size: 20px;
+}
+
+#button {
+    background-color: black;
+}
+
+#map {
+    float: right;
+
+}
+
+#sug {
+    background-color: black;
+    color: white;
+    height: 32px;
+    width: 102px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    float: right;
+    margin: auto;
+    width: 8%;
+    align-items: center;
+
+}
+
+.fa-facebook-square {
+
+    color: blue;
+}
+
+.fa-twitter-square {
+    color: deepskyblue;
+}
+
+.fa-linkedin {
+    color: #2F7C87;
+}
+
+.partage {
+    display: flex;
+}
+
+.social p {
+    writing-mode: vertical-rl;
+    font-size: 15px;
+}
+
+h2 {
+
+    margin: auto;
+    width: 133%;
+    font-size: 47px;
+
+}
+
+/*.barnoir {*/
+/*    background-color: black;*/
+/*    width: 2400px;*/
+/*    height: 1px;*/
+/*    position: fixed;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*.cookie {*/
+/*    padding-top: 20px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+
+/*}*/
+
+/*.accept {*/
+/*    border-radius: 6px 6px 6px 6px;*/
+/*    background-color: black;*/
+/*    height: 50px;*/
+/*    width: 200px;*/
+/*    color: white;*/
+/*}*/
+
+
+.go {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.align img {
+    margin: 50px;
+}
+
+.ligne {
+    display: flex;
+    justify-content: center;
+}
+
+.lignebleu {
+    background-color: #CDEDFA;
+    height: 4px;
+    width: 151px;
+    margin: 15px;
+}
+
+.ligneclair {
+    background-color: #0882B3;
+    height: 4px;
+    width: 151px;
+    margin: 15px;
+
+}
+
+.blockbleu {
+    background-color: #5CC6ED;
+    height: 50px;
+    width: 330px;
+}
+
+
+.parle {
+    display: flex;
+    justify-content: center;
+}
+
+.parle p {
+    margin: 37px;
+}
+
+.pouvoir {
+    display: flex;
+    margin: auto;
+    width: 62%;
+}
+
+.pouvoir img {
+    width: 123%;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+.orloge p {
+    font-weight: 900;
+}
+
+.blockbleu p {
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+    width: 101%;
+}
+
+.bluar {
+
+    height: 13px;
+    width: 330px;
+    background-color: #B5D4E6;
+}
+
+.dure {
+
+    margin: auto;
+    width: 90%;
+    background-color:    #66cccc;;
+    height: 1100px;
+}
+
+.olpo {
+    margin-top: 200px;
+}
+
+.olpo h1 {
+    text-align: center;
+    color: black;
+    padding-top: 130px;
+}
+
+.olpo h2 {
+    width: 20%;
+    color: white;
+    text-align: center;
+}
+
+.france {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.france .fa-arrow-alt-circle-right, .fa-arrow-circle-left {
+
+
+    color: white;
+}
+
+.france img {
+    min-width: 300px;
+}
+
+.dialogue {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.dialogue p {
+    min-width: 300px;
+    font-size: 30px;
+}
+
+.fa-arrow-circle-left {
+    font-size: 65px;
+}
+
+img:nth-child(n3) {
+    opacity: 0, 5;
+}
+
+.poitier {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 153px;
+    grid-auto-flow: column;
+}
+
+.dialogue .fa-arrow-circle-left {
+    display: flex;
+    align-items: center;
+}
+
+.dialogue .fa-arrow-alt-circle-right {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    
+    width: calc(100% / 5);
+}
+.card:nth-of-type(4n){
+    opacity: 0.33;
+}
+.card:nth-of-type(2n){
+    opacity: 0.33;
+}
+
+.card1 {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card5 {
+    display: flex;
+    align-items: center;
+    margin: none;
+}
+
+.card5 .fa-arrow-alt-circle-right {
+    margin: 0;
+    background: none;
+    color: white;
+}
+.nul{
+    padding-top: 50px;
+    grid-gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+.steve {
+    margin: auto;
+    width: 5%;
+    font-size: 16px;
+    position: relative;
+    bottom: 63px;
+}
+.steve span{
+    font-weight: 900;
+}
+.nul p{
+    width: 31%;
+    color: #2880A6;
+    font-size: 22px;
+}
+.wf3{
+    margin: auto;
+    width: 90%;
+}
+.wf3 span{
+    font-weight: 900;
+}
+.gedn img{
+    height: 300px;
+    width: 300px;
+}
+.gedn{
+    display: flex;
+    justify-content: center;
+    grid-gap: 35px;
+}
+.salon{
+    display: flex;
+    justify-content: center;
+    grid-gap: 100px;
+    font-weight: bold;
+}
+.pauvre{
+    display: flex;
+    justify-content: center;
+    grid-gap: 131px;
+}
+.blocknoire{
+    display: flex;
+    justify-content: center;
+    grid-gap: 112px;
+}
+.noiroe{
+    text-align: center;
+    color: white;
+    height: 53px;
+    width: 250px;
+    background-color: black;
+}
+.demifin{
+    background-image: url(img/images.png);
+    height: 1000px;
+    width: 100%;
+}
+.demifin h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.demifin img{
+    width: 7%;
+    height: auto;
+}
+.parte{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    grid-gap: 96px;
+}
+.block35{
+    background-color: aqua;
+    height: 500px;
+    float: right;
+    width: 433px;
+    margin-top: 199px;
+}
+.mopk{
+    margin: auto;
+    width: 74%;
+}
+.mopk h1{
+    padding: inherit;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    font-size: 46px;
+    text-align: center;
+}
+.bg {
+    color: white;
+}
+.mopk span{
+    font-weight: 700;
+}
+.presque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blancos{
+    background-color: white;
+    width: 86px;
+    text-align: center;
+    height: 32px;
+    padding-top: 12px;
+}
+.reseau{
+    font-size: 77px;
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+    gap: 50px;
+}
+.fondnoir{
+    background-color: black;
+    height: 1500px;
+    width: auto;
+}
+.fondnoir img{
+    height: 90px;
+    background: white;
+}
+.fondnoir h2{
+    color: white;
+    font-size: 30px;
+}
+.infor{
+    padding-top: 51px;
+    display: flex;
+    grid-gap: 112px;
+    margin: auto;
+    width: 27%;
+}
+.demain{
+    display: flex;
+    padding: 50px;
+    justify-content: flex-end;
+    grid-gap: 76px;
+}
+.demain ul{
+    display: flex;
+    flex-direction: column;
+}
+.noob{
+    margin: auto;
+    width: 41%;
+    float: right;
+}
+.noob h2{
+     width: auto;
+}
+.final{
+    margin: auto;
+    width: 53%;
+    text-align: center;
+}
+.fa-twitter{
+    background: darkkhaki;
+    border-radius: 270px;
+}
+.fa-linkedin-in{
+    background: brown;
+    border-radius: 270px;
+}      
+@media (max-width: 1199.98px) {
+    .reunion{
+    background-color: gold;
+    height: 643px;
+    width: 500px;
+    }
+    .pouvoir{
+        display: flex;
+        margin: auto;
+        width: 107%;
+    }
+    .pouvoir img{
+        height: 213px;
+    }
+    h4{
+        font-size: 1.3rem;
+    }
+    .orloge p{
+    font-weight: 900;
+    width: 89%;
+    font-size: 11px;
+    }
+    .align img{
+        margin: initial;
+    }
+    .go{
+        padding-top: 45%;
+        text-align: center;
+    }
+    .dialogue {
+        flex-direction: column;
+    }
+    .dure {
+        height: auto;
+        width: auto;
+    }
+
+    .olpo{
+        display: none;
+    }
+    .card1, .card5 {
+        display: none;
+    }
+    .nul p{
+        display: none;
+    }
+}

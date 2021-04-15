@@ -1,0 +1,27 @@
+.haut{
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+}
+nav{
+    background-color: burlywood;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    color: aliceblue;
+    font-size: 31px;
+    list-style: none;
+    grid-gap: 54px;
+}
+.line{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(#e66465, #9198e5);
+}
